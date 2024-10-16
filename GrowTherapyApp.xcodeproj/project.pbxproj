@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A3C5202CBFC6F600C39E8D /* GrowTherapyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */; };
+		05A3C5222CBFC6F600C39E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5212CBFC6F600C39E8D /* ContentView.swift */; };
+		05A3C5242CBFC6F900C39E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A3C5232CBFC6F900C39E8D /* Assets.xcassets */; };
+		05A3C5272CBFC6F900C39E8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A3C5262CBFC6F900C39E8D /* Preview Assets.xcassets */; };
+		05A3C5312CBFC6FA00C39E8D /* GrowTherapyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5302CBFC6FA00C39E8D /* GrowTherapyAppTests.swift */; };
+		05A3C53B2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C53A2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift */; };
+		05A3C53D2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C53C2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05A3C52D2CBFC6FA00C39E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A3C5142CBFC6F600C39E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A3C51B2CBFC6F600C39E8D;
+			remoteInfo = GrowTherapyApp;
+		};
+		05A3C5372CBFC6FA00C39E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A3C5142CBFC6F600C39E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A3C51B2CBFC6F600C39E8D;
+			remoteInfo = GrowTherapyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A3C51C2CBFC6F600C39E8D /* GrowTherapyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowTherapyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppApp.swift; sourceTree = "<group>"; };
+		05A3C5212CBFC6F600C39E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05A3C5232CBFC6F900C39E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05A3C5262CBFC6F900C39E8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05A3C52C2CBFC6FA00C39E8D /* GrowTherapyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowTherapyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A3C5302CBFC6FA00C39E8D /* GrowTherapyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppTests.swift; sourceTree = "<group>"; };
+		05A3C5362CBFC6FA00C39E8D /* GrowTherapyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowTherapyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A3C53A2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppUITests.swift; sourceTree = "<group>"; };
+		05A3C53C2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A3C5192CBFC6F600C39E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C5292CBFC6FA00C39E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C5332CBFC6FA00C39E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A3C5132CBFC6F600C39E8D = {
+			isa = PBXGroup;
+			children = (
+				05A3C51E2CBFC6F600C39E8D /* GrowTherapyApp */,
+				05A3C52F2CBFC6FA00C39E8D /* GrowTherapyAppTests */,
+				05A3C5392CBFC6FA00C39E8D /* GrowTherapyAppUITests */,
+				05A3C51D2CBFC6F600C39E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05A3C51D2CBFC6F600C39E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C51C2CBFC6F600C39E8D /* GrowTherapyApp.app */,
+				05A3C52C2CBFC6FA00C39E8D /* GrowTherapyAppTests.xctest */,
+				05A3C5362CBFC6FA00C39E8D /* GrowTherapyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05A3C51E2CBFC6F600C39E8D /* GrowTherapyApp */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */,
+				05A3C5212CBFC6F600C39E8D /* ContentView.swift */,
+				05A3C5232CBFC6F900C39E8D /* Assets.xcassets */,
+				05A3C5252CBFC6F900C39E8D /* Preview Content */,
+			);
+			path = GrowTherapyApp;
+			sourceTree = "<group>";
+		};
+		05A3C5252CBFC6F900C39E8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C5262CBFC6F900C39E8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05A3C52F2CBFC6FA00C39E8D /* GrowTherapyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C5302CBFC6FA00C39E8D /* GrowTherapyAppTests.swift */,
+			);
+			path = GrowTherapyAppTests;
+			sourceTree = "<group>";
+		};
+		05A3C5392CBFC6FA00C39E8D /* GrowTherapyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C53A2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift */,
+				05A3C53C2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift */,
+			);
+			path = GrowTherapyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05A3C51B2CBFC6F600C39E8D /* GrowTherapyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A3C5402CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyApp" */;
+			buildPhases = (
+				05A3C5182CBFC6F600C39E8D /* Sources */,
+				05A3C5192CBFC6F600C39E8D /* Frameworks */,
+				05A3C51A2CBFC6F600C39E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowTherapyApp;
+			productName = GrowTherapyApp;
+			productReference = 05A3C51C2CBFC6F600C39E8D /* GrowTherapyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05A3C52B2CBFC6FA00C39E8D /* GrowTherapyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A3C5432CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyAppTests" */;
+			buildPhases = (
+				05A3C5282CBFC6FA00C39E8D /* Sources */,
+				05A3C5292CBFC6FA00C39E8D /* Frameworks */,
+				05A3C52A2CBFC6FA00C39E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A3C52E2CBFC6FA00C39E8D /* PBXTargetDependency */,
+			);
+			name = GrowTherapyAppTests;
+			productName = GrowTherapyAppTests;
+			productReference = 05A3C52C2CBFC6FA00C39E8D /* GrowTherapyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05A3C5352CBFC6FA00C39E8D /* GrowTherapyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A3C5462CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyAppUITests" */;
+			buildPhases = (
+				05A3C5322CBFC6FA00C39E8D /* Sources */,
+				05A3C5332CBFC6FA00C39E8D /* Frameworks */,
+				05A3C5342CBFC6FA00C39E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A3C5382CBFC6FA00C39E8D /* PBXTargetDependency */,
+			);
+			name = GrowTherapyAppUITests;
+			productName = GrowTherapyAppUITests;
+			productReference = 05A3C5362CBFC6FA00C39E8D /* GrowTherapyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05A3C5142CBFC6F600C39E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					05A3C51B2CBFC6F600C39E8D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					05A3C52B2CBFC6FA00C39E8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 05A3C51B2CBFC6F600C39E8D;
+					};
+					05A3C5352CBFC6FA00C39E8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 05A3C51B2CBFC6F600C39E8D;
+					};
+				};
+			};
+			buildConfigurationList = 05A3C5172CBFC6F600C39E8D /* Build configuration list for PBXProject "GrowTherapyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05A3C5132CBFC6F600C39E8D;
+			productRefGroup = 05A3C51D2CBFC6F600C39E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A3C51B2CBFC6F600C39E8D /* GrowTherapyApp */,
+				05A3C52B2CBFC6FA00C39E8D /* GrowTherapyAppTests */,
+				05A3C5352CBFC6FA00C39E8D /* GrowTherapyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05A3C51A2CBFC6F600C39E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A3C5272CBFC6F900C39E8D /* Preview Assets.xcassets in Resources */,
+				05A3C5242CBFC6F900C39E8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C52A2CBFC6FA00C39E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C5342CBFC6FA00C39E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A3C5182CBFC6F600C39E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A3C5222CBFC6F600C39E8D /* ContentView.swift in Sources */,
+				05A3C5202CBFC6F600C39E8D /* GrowTherapyAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C5282CBFC6FA00C39E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A3C5312CBFC6FA00C39E8D /* GrowTherapyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A3C5322CBFC6FA00C39E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A3C53B2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift in Sources */,
+				05A3C53D2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A3C52E2CBFC6FA00C39E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A3C51B2CBFC6F600C39E8D /* GrowTherapyApp */;
+			targetProxy = 05A3C52D2CBFC6FA00C39E8D /* PBXContainerItemProxy */;
+		};
+		05A3C5382CBFC6FA00C39E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A3C51B2CBFC6F600C39E8D /* GrowTherapyApp */;
+			targetProxy = 05A3C5372CBFC6FA00C39E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A3C53E2CBFC6FA00C39E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05A3C53F2CBFC6FA00C39E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05A3C5412CBFC6FA00C39E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrowTherapyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05A3C5422CBFC6FA00C39E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrowTherapyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05A3C5442CBFC6FA00C39E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrowTherapyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrowTherapyApp";
+			};
+			name = Debug;
+		};
+		05A3C5452CBFC6FA00C39E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrowTherapyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrowTherapyApp";
+			};
+			name = Release;
+		};
+		05A3C5472CBFC6FA00C39E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrowTherapyApp;
+			};
+			name = Debug;
+		};
+		05A3C5482CBFC6FA00C39E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBP6KR955H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r4t4g5.GrowTherapyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrowTherapyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A3C5172CBFC6F600C39E8D /* Build configuration list for PBXProject "GrowTherapyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A3C53E2CBFC6FA00C39E8D /* Debug */,
+				05A3C53F2CBFC6FA00C39E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A3C5402CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A3C5412CBFC6FA00C39E8D /* Debug */,
+				05A3C5422CBFC6FA00C39E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A3C5432CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A3C5442CBFC6FA00C39E8D /* Debug */,
+				05A3C5452CBFC6FA00C39E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A3C5462CBFC6FA00C39E8D /* Build configuration list for PBXNativeTarget "GrowTherapyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A3C5472CBFC6FA00C39E8D /* Debug */,
+				05A3C5482CBFC6FA00C39E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05A3C5142CBFC6F600C39E8D /* Project object */;
+}
