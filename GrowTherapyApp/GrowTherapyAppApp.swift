@@ -11,7 +11,9 @@ import SwiftUI
 struct GrowTherapyAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+            } 
         }
     }
 }

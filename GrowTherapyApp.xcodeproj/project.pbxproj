@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0551436D2CC4B7D6001DE5E1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0551436C2CC4B7D6001DE5E1 /* Lottie */; };
+		055143752CC4C065001DE5E1 /* Animation - 1729398858332.json in Resources */ = {isa = PBXBuildFile; fileRef = 055143742CC4C065001DE5E1 /* Animation - 1729398858332.json */; };
+		055143782CC4C135001DE5E1 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 055143772CC4C135001DE5E1 /* DotLottie */; };
+		0551437A2CC4C3DD001DE5E1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055143792CC4C3DD001DE5E1 /* LoadingView.swift */; };
+		055143832CC665C1001DE5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055143822CC665C1001DE5E1 /* LaunchScreen.storyboard */; };
+		055143852CC66A85001DE5E1 /* AdditionalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055143842CC66A84001DE5E1 /* AdditionalViews.swift */; };
 		05A3C5202CBFC6F600C39E8D /* GrowTherapyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */; };
 		05A3C5222CBFC6F600C39E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5212CBFC6F600C39E8D /* ContentView.swift */; };
 		05A3C5242CBFC6F900C39E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A3C5232CBFC6F900C39E8D /* Assets.xcassets */; };
@@ -14,6 +20,19 @@
 		05A3C5312CBFC6FA00C39E8D /* GrowTherapyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5302CBFC6FA00C39E8D /* GrowTherapyAppTests.swift */; };
 		05A3C53B2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C53A2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift */; };
 		05A3C53D2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C53C2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift */; };
+		05A3C5502CBFC7B800C39E8D /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C54F2CBFC7B800C39E8D /* TaskModel.swift */; };
+		05A3C5522CBFC8CF00C39E8D /* EmotionTrackingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5512CBFC8CF00C39E8D /* EmotionTrackingModel.swift */; };
+		05A3C5542CBFCD7800C39E8D /* TaskFetchingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5532CBFCD7800C39E8D /* TaskFetchingRequest.swift */; };
+		05A3C5562CBFCE2100C39E8D /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5552CBFCE2100C39E8D /* StateModel.swift */; };
+		05A3C5582CBFCE6A00C39E8D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5572CBFCE6A00C39E8D /* TaskViewModel.swift */; };
+		05A3C55A2CBFCE9400C39E8D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5592CBFCE9400C39E8D /* TaskView.swift */; };
+		05A3C55C2CBFCFA900C39E8D /* EmotionRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C55B2CBFCFA900C39E8D /* EmotionRatingView.swift */; };
+		05A3C5602CBFD06F00C39E8D /* TeleHealthSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C55F2CBFD06E00C39E8D /* TeleHealthSessionView.swift */; };
+		05A3C5622CBFD08B00C39E8D /* BreathingExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5612CBFD08B00C39E8D /* BreathingExerciseView.swift */; };
+		05A3C56C2CBFE47D00C39E8D /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C56B2CBFE47D00C39E8D /* BackgroundModifier.swift */; };
+		05A3C5702CC0977E00C39E8D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C56F2CC0977E00C39E8D /* MockData.swift */; };
+		05A3C5732CC09ABC00C39E8D /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5722CC09ABB00C39E8D /* TaskCell.swift */; };
+		05A3C5752CC0BBE600C39E8D /* BreathingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3C5742CC0BBE600C39E8D /* BreathingBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055143712CC4BBC1001DE5E1 /* loadingSplash.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = loadingSplash.lottie; sourceTree = "<group>"; };
+		055143742CC4C065001DE5E1 /* Animation - 1729398858332.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1729398858332.json"; sourceTree = "<group>"; };
+		055143792CC4C3DD001DE5E1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		055143822CC665C1001DE5E1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		055143842CC66A84001DE5E1 /* AdditionalViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalViews.swift; sourceTree = "<group>"; };
 		05A3C51C2CBFC6F600C39E8D /* GrowTherapyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowTherapyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppApp.swift; sourceTree = "<group>"; };
 		05A3C5212CBFC6F600C39E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,19 @@
 		05A3C5362CBFC6FA00C39E8D /* GrowTherapyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowTherapyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A3C53A2CBFC6FA00C39E8D /* GrowTherapyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppUITests.swift; sourceTree = "<group>"; };
 		05A3C53C2CBFC6FA00C39E8D /* GrowTherapyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTherapyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05A3C54F2CBFC7B800C39E8D /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		05A3C5512CBFC8CF00C39E8D /* EmotionTrackingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTrackingModel.swift; sourceTree = "<group>"; };
+		05A3C5532CBFCD7800C39E8D /* TaskFetchingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFetchingRequest.swift; sourceTree = "<group>"; };
+		05A3C5552CBFCE2100C39E8D /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		05A3C5572CBFCE6A00C39E8D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		05A3C5592CBFCE9400C39E8D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		05A3C55B2CBFCFA900C39E8D /* EmotionRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRatingView.swift; sourceTree = "<group>"; };
+		05A3C55F2CBFD06E00C39E8D /* TeleHealthSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleHealthSessionView.swift; sourceTree = "<group>"; };
+		05A3C5612CBFD08B00C39E8D /* BreathingExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExerciseView.swift; sourceTree = "<group>"; };
+		05A3C56B2CBFE47D00C39E8D /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		05A3C56F2CC0977E00C39E8D /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		05A3C5722CC09ABB00C39E8D /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		05A3C5742CC0BBE600C39E8D /* BreathingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0551436D2CC4B7D6001DE5E1 /* Lottie in Frameworks */,
+				055143782CC4C135001DE5E1 /* DotLottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0551436E2CC4BA93001DE5E1 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				055143742CC4C065001DE5E1 /* Animation - 1729398858332.json */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		0551437D2CC661D6001DE5E1 /* LaunchScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				055143792CC4C3DD001DE5E1 /* LoadingView.swift */,
+				055143822CC665C1001DE5E1 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreenView;
+			sourceTree = "<group>";
+		};
 		05A3C5132CBFC6F600C39E8D = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +150,11 @@
 		05A3C51E2CBFC6F600C39E8D /* GrowTherapyApp */ = {
 			isa = PBXGroup;
 			children = (
+				055143712CC4BBC1001DE5E1 /* loadingSplash.lottie */,
+				05A3C54E2CBFC78400C39E8D /* Model */,
+				05A3C54A2CBFC71D00C39E8D /* Presentation */,
+				05A3C5492CBFC71100C39E8D /* Domain */,
 				05A3C51F2CBFC6F600C39E8D /* GrowTherapyAppApp.swift */,
-				05A3C5212CBFC6F600C39E8D /* ContentView.swift */,
 				05A3C5232CBFC6F900C39E8D /* Assets.xcassets */,
 				05A3C5252CBFC6F900C39E8D /* Preview Content */,
 			);
@@ -127,6 +186,68 @@
 			path = GrowTherapyAppUITests;
 			sourceTree = "<group>";
 		};
+		05A3C5492CBFC71100C39E8D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C5532CBFCD7800C39E8D /* TaskFetchingRequest.swift */,
+				05A3C56F2CC0977E00C39E8D /* MockData.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		05A3C54A2CBFC71D00C39E8D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C54D2CBFC75100C39E8D /* ViewModel */,
+				05A3C54B2CBFC73E00C39E8D /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		05A3C54B2CBFC73E00C39E8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0551437D2CC661D6001DE5E1 /* LaunchScreenView */,
+				0551436E2CC4BA93001DE5E1 /* LottieAnimations */,
+				05A3C5712CC09A9F00C39E8D /* TaskView */,
+				05A3C55B2CBFCFA900C39E8D /* EmotionRatingView.swift */,
+				05A3C55F2CBFD06E00C39E8D /* TeleHealthSessionView.swift */,
+				05A3C5612CBFD08B00C39E8D /* BreathingExerciseView.swift */,
+				05A3C5212CBFC6F600C39E8D /* ContentView.swift */,
+				05A3C56B2CBFE47D00C39E8D /* BackgroundModifier.swift */,
+				05A3C5742CC0BBE600C39E8D /* BreathingBackground.swift */,
+				055143842CC66A84001DE5E1 /* AdditionalViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05A3C54D2CBFC75100C39E8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C5572CBFCE6A00C39E8D /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05A3C54E2CBFC78400C39E8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C54F2CBFC7B800C39E8D /* TaskModel.swift */,
+				05A3C5512CBFC8CF00C39E8D /* EmotionTrackingModel.swift */,
+				05A3C5552CBFCE2100C39E8D /* StateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05A3C5712CC09A9F00C39E8D /* TaskView */ = {
+			isa = PBXGroup;
+			children = (
+				05A3C5592CBFCE9400C39E8D /* TaskView.swift */,
+				05A3C5722CC09ABB00C39E8D /* TaskCell.swift */,
+			);
+			path = TaskView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +264,10 @@
 			dependencies = (
 			);
 			name = GrowTherapyApp;
+			packageProductDependencies = (
+				0551436C2CC4B7D6001DE5E1 /* Lottie */,
+				055143772CC4C135001DE5E1 /* DotLottie */,
+			);
 			productName = GrowTherapyApp;
 			productReference = 05A3C51C2CBFC6F600C39E8D /* GrowTherapyApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +340,10 @@
 				Base,
 			);
 			mainGroup = 05A3C5132CBFC6F600C39E8D;
+			packageReferences = (
+				0551436B2CC4B7D6001DE5E1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				055143762CC4C135001DE5E1 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
 			productRefGroup = 05A3C51D2CBFC6F600C39E8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055143752CC4C065001DE5E1 /* Animation - 1729398858332.json in Resources */,
 				05A3C5272CBFC6F900C39E8D /* Preview Assets.xcassets in Resources */,
+				055143832CC665C1001DE5E1 /* LaunchScreen.storyboard in Resources */,
 				05A3C5242CBFC6F900C39E8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +388,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A3C5522CBFC8CF00C39E8D /* EmotionTrackingModel.swift in Sources */,
+				0551437A2CC4C3DD001DE5E1 /* LoadingView.swift in Sources */,
+				05A3C5582CBFCE6A00C39E8D /* TaskViewModel.swift in Sources */,
+				05A3C55C2CBFCFA900C39E8D /* EmotionRatingView.swift in Sources */,
+				05A3C5702CC0977E00C39E8D /* MockData.swift in Sources */,
+				05A3C5562CBFCE2100C39E8D /* StateModel.swift in Sources */,
+				05A3C5502CBFC7B800C39E8D /* TaskModel.swift in Sources */,
+				055143852CC66A85001DE5E1 /* AdditionalViews.swift in Sources */,
+				05A3C56C2CBFE47D00C39E8D /* BackgroundModifier.swift in Sources */,
+				05A3C5622CBFD08B00C39E8D /* BreathingExerciseView.swift in Sources */,
+				05A3C5752CC0BBE600C39E8D /* BreathingBackground.swift in Sources */,
 				05A3C5222CBFC6F600C39E8D /* ContentView.swift in Sources */,
+				05A3C5542CBFCD7800C39E8D /* TaskFetchingRequest.swift in Sources */,
+				05A3C5732CC09ABC00C39E8D /* TaskCell.swift in Sources */,
 				05A3C5202CBFC6F600C39E8D /* GrowTherapyAppApp.swift in Sources */,
+				05A3C5602CBFD06F00C39E8D /* TeleHealthSessionView.swift in Sources */,
+				05A3C55A2CBFCE9400C39E8D /* TaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +574,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +604,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,6 +736,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0551436B2CC4B7D6001DE5E1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		055143762CC4C135001DE5E1 /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0551436C2CC4B7D6001DE5E1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0551436B2CC4B7D6001DE5E1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		055143772CC4C135001DE5E1 /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 055143762CC4C135001DE5E1 /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05A3C5142CBFC6F600C39E8D /* Project object */;
 }
